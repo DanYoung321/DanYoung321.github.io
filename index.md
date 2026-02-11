@@ -11,5 +11,9 @@ title: Home
 
 This site is a showcase of some of my previous projects, as well as other things I'm interested in.
 
+[Projects](/projects/)  
+[About](/about/)  
+[Blog](/blog/)
+
 ## Contact
 [LinkedIn](https://https://www.linkedin.com/in/daniel-ca-young/)

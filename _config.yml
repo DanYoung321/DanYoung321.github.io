@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
-title: Daniel Young's homepage
+theme: minima
+title: Daniel Young's Site
 description: Bookmark this to keep an eye on my project updates!
+
+baseurl: ""
+url: "https://DanYoung321.github.io"
+
+markdown: kramdown
+
+header_pages:
+- about.md
+- projects.md
