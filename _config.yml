@@ -8,5 +8,6 @@ url: "https://DanYoung321.github.io"
 markdown: kramdown
 
 header_pages:
+- index.md
 - about.md
 - projects.md
