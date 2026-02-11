@@ -18,3 +18,62 @@
   background-color: #333;
   color: white;
 }
+
+.site-footer .contact-section {
+  margin-top: 10px;
+  justify-content: center;
+}
+
+body.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.site .site-wrap {
+  flex: 1;
+}
+
+footer {
+  margin-bottom: 30px;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+}
+
+footer .contact-links a {
+  text-decoration: none;
+  background-image: none;
+  color: #000;
+  font-weight: 300;
+  word-wrap: normal;
+}
+
+footer .contact-links a:active,
+footer .contact-links a:hover {
+  outline-width: 0;
+}
+
+.contact-links span,
+footer,
+sub,
+sup {
+  position: relative;
+}
+
+.contact-links span:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #000;
+  transition: 0.4s;
+  transform: scaleX(1);
+}
+
+.contact-links a:hover span:before {
+  content: "";
+  transform: scaleX(0);
+}
